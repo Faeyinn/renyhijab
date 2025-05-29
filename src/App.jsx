@@ -12,13 +12,8 @@ function App() {
         <div class="nav-links" id="navLinks">
           <a href="#" tabindex="0">Home</a>
           <a href="#" tabindex="0">About</a>
-          <a href="#" tabindex="0">Services</a>
+          <a href="#" tabindex="0">Product</a>
           <a href="#" tabindex="0">Contact</a>
-        </div>
-        <div class="hamburger" id="hamburger" aria-label="Toggle menu" role="button" tabindex="0" aria-expanded="false" aria-controls="navLinks">
-          <div></div>
-          <div></div>
-          <div></div>
         </div>
       </nav>
 
