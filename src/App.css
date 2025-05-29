@@ -1,8 +1,122 @@
 #root {
-  max-width: 1280px;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff0f6;
+  color: #5a2a3f;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #f8cddf 0%, #f9d7e3 100%);
+  color: #5a2a3f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  height: 64px;
+  box-shadow: 0 4px 12px rgba(224, 171, 196, 0.3);
+  z-index: 1000;
+  backdrop-filter: saturate(180%) blur(10px);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.brand {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  cursor: pointer;
+  user-select: none;
+  font-family: 'Playfair Display', serif;
+  text-shadow: 1px 1px 3px rgba(255 192 203 / 0.7);
+  color: #8b3750;
+  transition: color 0.3s ease;
+  outline-offset: 4px;
+}
+.brand:hover,
+.brand:focus {
+  color: #d66f91;
+  outline: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.nav-links a {
+  color: #7f4660;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.25s ease;
+  user-select: none;
+  padding: 4px 0;
+  position: relative;
+}
+
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: #d66f91;
+  transition: width 0.3s ease;
+  border-radius: 2px;
+}
+.nav-links a:hover,
+.nav-links a:focus {
+  color: #c13e68;
+  transform: scale(1.15);
+  outline: none;
+}
+.nav-links a:hover::after,
+.nav-links a:focus::after {
+  width: 100%;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+  width: 28px;
+  height: 22px;
+  justify-content: center;
+  user-select: none;
+  position: relative;
+  transition: transform 0.4s ease;
+  z-index: 1050;
+}
+.hamburger div {
+  width: 100%;
+  height: 3.5px;
+  background: #7f4660;
+  border-radius: 4px;
+  transition: all 0.4s ease;
+  transform-origin: center;
+  box-shadow: 0 2px 6px rgba(209, 111, 145, 0.6);
+}
+.hamburger.active div:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  background: #c13e68;
+  box-shadow: 0 2px 8px rgba(209, 111, 145, 1);
+}
+.hamburger.active div:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active div:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background: #c13e68;
+  box-shadow: 0 2px 8px rgba(209, 111, 145, 1);
 }
 
 .logo {

@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import renyhijab from './assets/renyhijab.png'
 import './App.css'
 
 function App() {
@@ -8,15 +7,29 @@ function App() {
 
   return (
     <>
+      <nav role="navigation" aria-label="Main navigation">
+        <div class="brand" tabindex="0">RenyHijab</div>
+        <div class="nav-links" id="navLinks">
+          <a href="#" tabindex="0">Home</a>
+          <a href="#" tabindex="0">About</a>
+          <a href="#" tabindex="0">Services</a>
+          <a href="#" tabindex="0">Contact</a>
+        </div>
+        <div class="hamburger" id="hamburger" aria-label="Toggle menu" role="button" tabindex="0" aria-expanded="false" aria-controls="navLinks">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </nav>
+
       <div>
         <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+          <img src={renyhijab} className="logo" alt="Vite logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+
+      <h1>Reny Hijab Database</h1>
+
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -25,8 +38,9 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
+
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        <em>Copyright © 2025 Reny Hijab. All rights reserved.</em>
       </p>
     </>
   )
