@@ -10,15 +10,15 @@ function App() {
       <nav role="navigation" aria-label="Main navigation">
         <div class="brand" tabindex="0">RenyHijab</div>
         <div class="nav-links" id="navLinks">
-          <a href="#" tabindex="0">Home</a>
           <a href="#" tabindex="0">About</a>
           <a href="#" tabindex="0">Product</a>
           <a href="#" tabindex="0">Contact</a>
+          <a href="#" tabindex="0">Home</a>
         </div>
       </nav>
 
       <div>
-        <a href="https://vite.dev" target="_blank">
+        <a href="https://instagram.com/jaaeyia" target="_blank">
           <img src={renyhijab} className="logo" alt="Vite logo" />
         </a>
       </div>
