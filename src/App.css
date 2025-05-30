@@ -3,6 +3,22 @@
   height: 100%;
   margin: 0 auto;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: linear-gradient(135deg, #f8cddf 0%, #f9d7e3 100%);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
   text-align: center;
   font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #fff0f6;
@@ -38,6 +54,7 @@ nav {
   color: #8b3750;
   transition: color 0.3s ease;
   outline-offset: 4px;
+  padding-left: 1rem;
 }
 .brand:hover,
 .brand:focus {
@@ -57,7 +74,7 @@ nav {
   font-size: 1.1rem;
   transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.25s ease;
   user-select: none;
-  padding: 4px 0;
+  padding: 4px 20px 4px 4px;
   position: relative;
 }
 
@@ -113,6 +130,58 @@ nav {
 
 .card {
   padding: 2em;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(224, 171, 196, 0.3);
+  max-width: 600px;
+  width: 100%;
+  margin: 2em auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #5a2a3f;
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 1;
+}
+
+.cta-button {
+  background-color: #ec4899;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #db2777;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(224, 171, 196, 0.3);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #d66f91;
+}
+
+.keunggulan-section {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.keunggulan-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+}
+
+.judul {
+  font-weight: bold;
 }
 
 .read-the-docs {
