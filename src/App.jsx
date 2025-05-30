@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import renyhijab from './assets/renyhijab.png'
 import './App.css'
 
 function App() {
@@ -16,12 +15,6 @@ function App() {
           <a href="https://wa.me/62895600077007" tabindex="0">Contact</a>
         </div>
       </nav><br /><br />
-
-      <div>
-        <a href="https://instagram.com/jaaeyia" target="_blank">
-          <img src={renyhijab} className="logo" alt="RenyHijab logo" />
-        </a>
-      </div>
 
       <h1>RenyHijab Database</h1>
 
