@@ -5,20 +5,30 @@
   font-family: 'Poppins', sans-serif;
 }
 header {
-  background-color: #F8C8DC;
-  padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #f8cddf 0%, #f9d7e3 100%);
+  color: #5a2a3f;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 2rem;
+  height: 64px;
+  box-shadow: 0 4px 12px rgba(224, 171, 196, 0.3);
+  z-index: 1000;
+  backdrop-filter: saturate(180%) blur(10px);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 header h1 {
   font-size: 1.5rem;
-  color: #333;
+  color: #8b3750;
 }
 nav a {
   margin-left: 1rem;
   text-decoration: none;
-  color: #333;
+  color: #8b3750;
   font-weight: 500;
 }
 .container {

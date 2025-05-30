@@ -1,10 +1,12 @@
-function Dbpage() {
+import './DbpComp.css'
+
+function DbpComp() {
   return (
     <>
         <header>
-            <h1>Toko Hijab Admin</h1>
+            <h1>RenyHijab Admin</h1>
             <nav>
-            <a href="#">Dashboard</a>
+            <a href="#">Home</a>
             <a href="#">Produk</a>
             <a href="#">Pelanggan</a>
             <a href="#">Transaksi</a>
@@ -51,4 +53,4 @@ function Dbpage() {
   );
 }
 
-export default Dbpage
+export default DbpComp
