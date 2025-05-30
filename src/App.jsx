@@ -19,7 +19,7 @@ function App() {
       <h1>RenyHijab Database</h1>
 
       <div className="card">
-        <a href="#produk" class="cta-button">Lihat Koleksi</a>
+        <a href="#produk" class="cta-button">Kelola Database</a>
         <p>
           "Tampil Anggun dan Syar'i Bersama Kami"
         </p>

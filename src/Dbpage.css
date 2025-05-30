@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+header {
+  background-color: #F8C8DC;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  font-size: 1.5rem;
+  color: #333;
+}
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+.container {
+  padding: 2rem;
+}
+.card {
+  background-color: #FFE4EC;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+.card h2 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #F8C8DC;
+}
+tr:nth-child(even) {
+  background-color: #fff;
+}
+tr:nth-child(odd) {
+  background-color: #FFF0F5;
+}
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+.btn-primary {
+  background-color: #F497B6;
+  color: #fff;
+}
+.btn-primary:hover {
+  background-color: #FFB6C1;
+}
+.btn-secondary {
+  background-color: transparent;
+  color: #F497B6;
+  border: 1px solid #F497B6;
+}
+.btn-secondary:hover {
+  background-color: #F497B6;
+  color: #fff;
+}
