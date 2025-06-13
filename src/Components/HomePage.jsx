@@ -34,7 +34,6 @@ function HomePage() {
           </div>
           <div>
             <p class="judul">💸 Murah</p>
-            <p>Harga terjangkau dan ramah kantong</p>
           </div>
           <div>
             <p class="judul">🔄 Tukar Ukuran</p>
