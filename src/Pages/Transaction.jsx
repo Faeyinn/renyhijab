@@ -1,4 +1,4 @@
-import './Transaction.css'
+import '../App.css'
 import Navigation from '../Components/Navigation';
 
 function Transaction() {
@@ -12,35 +12,23 @@ function Transaction() {
           <table>
             <thead>
               <tr>
-                <th>Nama Produk</th>
-                <th>Stok</th>
-                <th>Harga</th>
+                <th>Tanggal Transaksi</th>
+                <th>Pelanggan</th>
+                <th>Produk</th>
+                <th>Harga Satuan</th>
+                <th>Jumlah Barang</th>
+                <th>Total Harga</th>
                 <th>Aksi</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Hijab Instan Polos</td>
-                <td>25</td>
+                <td>14 Juni 2025</td>
+                <td>Shaza</td>
+                <td>Pashmina</td>
                 <td>Rp45.000</td>
-                <td>
-                  <button class="btn btn-primary">Edit</button>
-                  <button class="btn btn-secondary">Hapus</button>
-                </td>
-              </tr>
-              <tr>
-                <td>Pashmina Ceruty</td>
-                <td>15</td>
-                <td>Rp55.000</td>
-                <td>
-                  <button class="btn btn-primary">Edit</button>
-                  <button class="btn btn-secondary">Hapus</button>
-                </td>
-              </tr>
-              <tr>
-                <td>Kaos Kaki</td>
-                <td>20</td>
-                <td>Rp12.000</td>
+                <td>2</td>
+                <td>Rp90.000</td>
                 <td>
                   <button class="btn btn-primary">Edit</button>
                   <button class="btn btn-secondary">Hapus</button>

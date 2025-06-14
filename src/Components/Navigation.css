@@ -25,8 +25,6 @@ nav {
   font-family: 'Playfair Display', serif;
   text-shadow: 1px 1px 3px rgba(255 192 203 / 0.7);
   color: #8b3750;
-  transition: color 0.3s ease;
-  outline-offset: 4px;
   padding-left: 1rem;
 }
 .brand:hover,
@@ -47,7 +45,7 @@ nav {
   font-size: 1.1rem;
   transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.25s ease;
   user-select: none;
-  padding: 4px 20px 4px 4px;
+  padding: 4px 20px;
   position: relative;
 }
 
@@ -66,7 +64,7 @@ nav {
 .nav-links a:focus {
   color: #c13e68;
   transform: scale(1.15);
-  outline: none;
+  outline: none;  
 }
 .nav-links a:hover::after,
 .nav-links a:focus::after {
