@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import '../App.css';
 import Navigation from '../Components/Navigation';
 
-function Home() {
+function Dashboard() {
   const navigate = useNavigate()
 
   return (
@@ -48,4 +48,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Dashboard
