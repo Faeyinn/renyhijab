@@ -14,7 +14,7 @@ function Home() {
       <div className="card">
         <button class="cta-button" onClick={() => navigate('/product')}>Kelola Database</button>
         <p>
-          "Tampil Anggun dan Syar'i Bersama Kami"
+          <em>"Tampil Anggun dan Syar'i Bersama Kami"</em>
         </p>
       </div>
 

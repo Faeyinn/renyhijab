@@ -33,6 +33,33 @@
   }
 }
 
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin: 0 0.5rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+.btn-primary {
+  background-color: #F497B6;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.btn-primary:hover {
+  background-color: #FFB6C1;
+}
+.btn-secondary {
+  background-color: transparent;
+  color: #F497B6;
+  border: 1px solid #F497B6;
+}
+.btn-secondary:hover {
+  background-color: #F497B6;
+  color: #fff;
+}
+
 .card {
   display: grid;
   gap: 2em;
@@ -89,32 +116,6 @@ tr:nth-child(even) {
 }
 tr:nth-child(odd) {
   background-color: #FFF0F5;
-}
-.btn {
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
-  margin: 0 0.5rem;
-  border-radius: 8px;
-  border: none;
-  cursor: pointer;
-  font-weight: 500;
-}
-.btn-primary {
-  background-color: #F497B6;
-  color: #fff;
-  margin-bottom: 5px;
-}
-.btn-primary:hover {
-  background-color: #FFB6C1;
-}
-.btn-secondary {
-  background-color: transparent;
-  color: #F497B6;
-  border: 1px solid #F497B6;
-}
-.btn-secondary:hover {
-  background-color: #F497B6;
-  color: #fff;
 }
 
 .keunggulan-section {
