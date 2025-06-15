@@ -8,16 +8,18 @@ function Customer() {
 
       <div class="container">
         <div class="card">
-          <h2>Daftar Pelanggan</h2>
+          <h2>Daftar Customer</h2>
           <table>
             <thead>
               <tr>
-                <th>Nama Pelanggan</th>
+                <th>ID_cust</th>
+                <th>Nama Customer</th>
                 <th>Aksi</th>
               </tr>
             </thead>
             <tbody>
               <tr>
+                <td>CUST001</td>
                 <td>Shaza</td>
                 <td>
                   <button class="btn btn-primary">Edit</button>

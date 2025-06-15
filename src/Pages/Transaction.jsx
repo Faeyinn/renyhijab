@@ -12,8 +12,11 @@ function Transaction() {
           <table>
             <thead>
               <tr>
+                <th>ID_inv</th>
                 <th>Tanggal Transaksi</th>
-                <th>Pelanggan</th>
+                <th>ID_Cust</th>
+                <th>Customer</th>
+                <th>ID_Produk</th>
                 <th>Produk</th>
                 <th>Harga Satuan</th>
                 <th>Jumlah Barang</th>
@@ -23,8 +26,11 @@ function Transaction() {
             </thead>
             <tbody>
               <tr>
+                <td>TRX001</td>
                 <td>14 Juni 2025</td>
+                <td>CUST001</td>
                 <td>Shaza</td>
+                <td>PRD001</td>
                 <td>Pashmina</td>
                 <td>Rp45.000</td>
                 <td>2</td>

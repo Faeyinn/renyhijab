@@ -12,6 +12,7 @@ function Product() {
           <table>
             <thead>
               <tr>
+                <th>ID_Produk</th>
                 <th>Nama Produk</th>
                 <th>Stok</th>
                 <th>Harga</th>
@@ -20,6 +21,7 @@ function Product() {
             </thead>
             <tbody>
               <tr>
+                <td>PRD002</td>
                 <td>Hijab Instan Polos</td>
                 <td>25</td>
                 <td>Rp45.000</td>
