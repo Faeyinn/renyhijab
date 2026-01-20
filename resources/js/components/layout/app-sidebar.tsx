@@ -1,5 +1,12 @@
 import { Link, usePage } from '@inertiajs/react';
-import { Folder, LayoutGrid, Receipt, ShoppingBag, Users } from 'lucide-react';
+import {
+    FileText,
+    Folder,
+    LayoutGrid,
+    Receipt,
+    ShoppingBag,
+    Users,
+} from 'lucide-react';
 
 import { NavFooter } from '@/components/navigation/nav-footer';
 import { NavMain } from '@/components/navigation/nav-main';
@@ -44,6 +51,11 @@ const mainNavItems: NavItem[] = [
         href: '/transactions',
         icon: Receipt,
     },
+    {
+        title: 'Reports',
+        href: '/reports',
+        icon: FileText,
+    },
 ];
 
 const footerNavItems: NavItem[] = [];
@@ -53,10 +65,10 @@ export function AppSidebar() {
 
     const getGreeting = () => {
         const hour = new Date().getHours();
-        if (hour >= 5 && hour < 11) return 'Selamat Pagi';
-        if (hour >= 11 && hour < 15) return 'Selamat Siang';
-        if (hour >= 15 && hour < 18) return 'Selamat Sore';
-        return 'Selamat Malam';
+        if (hour >= 5 && hour < 11) return 'Good Morning';
+        if (hour >= 11 && hour < 15) return 'Good Afternoon';
+        if (hour >= 15 && hour < 18) return 'Good Evening';
+        return 'Good Night';
     };
 
     return (

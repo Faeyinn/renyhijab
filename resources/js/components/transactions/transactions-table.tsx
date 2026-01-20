@@ -1,3 +1,6 @@
+import { Printer } from 'lucide-react';
+import { useState } from 'react';
+
 import {
     ActionButtons,
     createDeleteAction,
@@ -18,8 +21,6 @@ import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogTitle } from '@/components/ui/dialog';
 import { type Transaction } from '@/types';
 import { formatCurrency } from '@/utils/currency';
-import { Printer } from 'lucide-react';
-import { useState } from 'react';
 
 interface TransactionsTableProps {
     transactions: Transaction[];

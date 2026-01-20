@@ -1,6 +1,8 @@
 import { Banknote, CalendarRange, Receipt, Wallet } from 'lucide-react';
+
 import { type Stats } from '@/types';
 import { formatCurrency } from '@/utils/currency';
+
 import { StatsCard } from './stats-card';
 
 interface StatsGridProps {

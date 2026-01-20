@@ -18,6 +18,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::resource('customers', \App\Http\Controllers\CustomerController::class);
     Route::resource('products', \App\Http\Controllers\ProductController::class);
     Route::resource('transactions', \App\Http\Controllers\TransactionController::class);
+    Route::get('reports', [\App\Http\Controllers\ReportController::class, 'index'])->name('reports.index');
+    Route::get('reports/export/{type}', [\App\Http\Controllers\ReportController::class, 'export'])->name('reports.export');
 });
 
 require __DIR__.'/settings.php';

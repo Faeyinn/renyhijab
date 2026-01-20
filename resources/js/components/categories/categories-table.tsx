@@ -1,3 +1,6 @@
+import { ChevronRight, Info } from 'lucide-react';
+import { useState } from 'react';
+
 import {
     ActionButtons,
     createDeleteAction,
@@ -21,8 +24,6 @@ import {
     PopoverTrigger,
 } from '@/components/ui/popover';
 import { type Category } from '@/types';
-import { ChevronRight, Info } from 'lucide-react';
-import { useState } from 'react';
 
 interface CategoriesTableProps {
     categories: Category[];

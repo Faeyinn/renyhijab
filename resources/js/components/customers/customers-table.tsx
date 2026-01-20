@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 import {
     ActionButtons,
     createDeleteAction,
@@ -15,7 +17,6 @@ import {
     AlertDialogTitle,
 } from '@/components/ui/alert-dialog';
 import { type Customer } from '@/types';
-import { useState } from 'react';
 
 interface CustomersTableProps {
     customers: Customer[];

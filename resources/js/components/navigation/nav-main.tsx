@@ -1,4 +1,3 @@
-import { cn } from '@/lib/utils';
 import { Link } from '@inertiajs/react';
 
 import {
@@ -9,6 +8,7 @@ import {
     SidebarMenuItem,
 } from '@/components/ui/sidebar';
 import { useActiveUrl } from '@/hooks/use-active-url';
+import { cn } from '@/lib/utils';
 import { type NavItem } from '@/types';
 
 export function NavMain({ items = [] }: { items: NavItem[] }) {

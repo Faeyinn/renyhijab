@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 import {
     ActionButtons,
     createDeleteAction,
@@ -16,7 +18,6 @@ import {
 } from '@/components/ui/alert-dialog';
 import { type Product } from '@/types';
 import { formatCurrency } from '@/utils/currency';
-import { useState } from 'react';
 
 interface ProductsTableProps {
     products: Product[];
